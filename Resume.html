@@ -6,33 +6,23 @@
     <title>Resume</title>
     <!-- <link rel="stylesheet" href="./style.css"> -->
 </head>
-<style>
-    .container{
-        width: 100%;
-        padding:35px 10%;
-    }
-    .col-education{
-        display: grid;
-        grid-column: 1fr;
-        grid-row: 2fr;
-    }
-    .col-skills{
-        display: grid;
-        grid-column: 1fr;
-        grid-row: 1fr;
-    }
+<style> 
 
-        
-        
-    .col header.title{
-        font-family: 'Times New Roman', Times, serif;
-        color: aqua;
-        
-    }
-    .col .contents{
-        padding: 0px 30px;
-        border-left: 2px solid #7cf034;
-    }
+.demo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title h2{
+    color: aqua;
+    
+}
+.contents{
+    padding: opx,30px;
+    border-left: 2PX solid rgb(47, 255, 141);
+}
+
+
+   
 </style>
 <body>
     <nav class="navbar">
@@ -51,11 +41,8 @@
         <div class="bar"></div>
         
     </div>
-    <div class="container">
-        <main class="row">
-            
-            <section class="col-education">
-                <header class="title">
+    <section class="demo">
+        <div class="main"><header class="title">
                     <h2>EDUCATION</h2>
                 </header>
                 <div class="contents">
@@ -77,10 +64,9 @@
 
                     </div>
                 </div>
-                
-            </section>
-            <section class="col-skills">
-                <header class="title">
+</div>
+<div class="main2">
+    <header class="title">
                     <h2>TECHNICAL SKILLS</h2>
                 </header>
                 <div class="contents">
@@ -94,16 +80,13 @@
                             <li>Soft Skills: Problem-Solving, Team Collaboration, Adaptablity</li>
                         </ul>
                         </div>
-                       
-                        
-                        
 
-                </section>
-                <section class="col certification">
-                <header class="title">
+
+<div>
+    <header class="title">
                     <h2>CERTIFICATIONS</h2>
                 </header>
-                <div class="contents">
+                <div >
                     <div class="box">
                         <ul>
                             <li>NPTEL-Employment Communication(Lab-Based Course)</li>
@@ -111,11 +94,11 @@
                             <li>JAVA Full Stack Development</li>
                             
                         </ul>
-                        
-                </section>
-            
-        </main>
-    </div>
+
+</div>
+</div>
+    </section>
+   
 
     
 </body>

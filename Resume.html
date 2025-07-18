@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <style> 
 
-.demo{
+/* .demo{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -19,18 +19,42 @@
 .contents{
     padding: opx,30px;
     border-left: 2PX solid rgb(47, 255, 141);
+} */
+
+.demo{
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.main2{
+    height: 500px;
+    padding: 30px;
+    border-left: 2px solid red;
+    
+}
+.main1{
+    height: 500px;
+    padding: 30px;
+    border-left: 2px solid red;
+    
+    
+}
+.contents{
+    line-height: 2.5;
 }
 
-
-   
 </style>
 <body>
     <nav class="navbar">
         <a href="" class="logo">Portfolio.</a>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="About.html">About</a></li>
-            <li><a href="">Resume</a></li>
+            <li ><a href="About.html">About</a></li>
+            <li class="active"><a href="Resume.html">Resume</a></li>
             <li><a href="">Project</a></li>
             <li><a href="">Contact</a></li>
         </ul>
@@ -42,61 +66,45 @@
         
     </div>
     <section class="demo">
-        <div class="main"><header class="title">
-                    <h2>EDUCATION</h2>
-                </header>
-                <div class="contents">
-                    <div class="box">
-                        <h4>2018-2019</h4>
-                        <h3>HSC</h3>
-                        <p>St Antony's Higher Secondary School,Thanjavur.|73%</p>
+        <div class="main1">
+            <h2>EDUCATION</h2>
+            <div class="contents">
+                <h4>2018-2019</h4>
+                <h3>HSC</h3>
+                <p>St Antony's Higher Secondary School,Thanjavur.| 73%</p>
+                <h4>2019-2022</h4>
+                <h3>B.Sc.,Microbiology</h3>
+                <p>SASTRA Deemed To Be University,Kumbakonam| 71%</p>
+                <h4>2022-2024</h4>
+                <h3>
+                    M.sc.,Microbiology
+                </h3>
+                <p>Bharath Institute Of Higher Education And Research,Chennai| 84%</p>
+            </div>
 
-                    </div>
-                    <div class="box">
-                        <h4>2019-2022</h4>
-                        <h3>B.Sc.,Microbiology</h3>
-                        <p>SASTRA Deemed To Be University,Kumbakonam|71%</p>
-
-                    </div><div class="box">
-                        <h4>2022-2024</h4>
-                        <h3>M.sc.,Microbiology</h3>
-                        <p>Bharath Institute of Higher Education And Research,Chennai.|83%</p>
-
-                    </div>
-                </div>
-</div>
-<div class="main2">
-    <header class="title">
-                    <h2>TECHNICAL SKILLS</h2>
-                </header>
-                <div class="contents">
-                    <div class="box">
-                        <ul>
+        </div>
+        <div class="main2">
+            <h2>TECHNICAL SKILLS</h2>
+            <div>
+                <ul>
                             <li>Languages & Framworks: JAVA, HTML, CSS,JavaScript</li>
                             <li>Databases:MySQL</li>
                             <li>Tools:Visual Studio Code, Eclipse, GitHub</li>
                             <li>Office Tools: MS Office, Google Sheets, Canva.
                             </li>
                             <li>Soft Skills: Problem-Solving, Team Collaboration, Adaptablity</li>
-                        </ul>
-                        </div>
-
-
-<div>
-    <header class="title">
-                    <h2>CERTIFICATIONS</h2>
-                </header>
-                <div >
-                    <div class="box">
-                        <ul>
+                </ul>
+            <h2>CERTIFICATIONS</h2>
+                 <ul>
                             <li>NPTEL-Employment Communication(Lab-Based Course)</li>
                             <li>Fundamentals of Computer-Basic level</li>
                             <li>JAVA Full Stack Development</li>
                             
-                        </ul>
+                 </ul>
+                        
 
-</div>
-</div>
+            </div>
+        </div>
     </section>
    
 
